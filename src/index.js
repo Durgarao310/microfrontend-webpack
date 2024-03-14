@@ -1,6 +1,8 @@
-"use strict";
+import React from "react";
+import ReactDOM from "react-dom";
 
-function helloWorld() {
-  console.log("hello world");
+function App() {
+  return <h1>Hello, world!</h1>;
 }
-helloWorld();
+
+ReactDOM.render(<App />, document.getElementById("root"));
