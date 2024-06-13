@@ -4,15 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "webpack",
-    "start": "webpack --mode=development"
+    "build": "webpack --mode=development",
+    "start": "webpack serve --mode=development"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "clsx": "^2.1.0",
+    "framer-motion": "^11.0.20",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "tailwind-merge": "^2.2.2"
   },
   "devDependencies": {
     "@babel/core": "^7.24.0",

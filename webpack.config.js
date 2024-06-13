@@ -19,14 +19,13 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: "frontend micro-frontend wiht webpack",
       template: "./src/index.html",
     }),
   ],
   devServer: {
-    contentBase: "./public",
+    static: "public/index.html",
     compress: true, // Optionally enable compression for faster loading
-    port: 3000, // Set the desired port number
+    port: 5000, // Set the desired port number
     open: true, // Optional: Automatically open the application in browser on startup
   },
 };
